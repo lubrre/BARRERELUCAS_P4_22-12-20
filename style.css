@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    
 }
 
 .b-parallax {
@@ -477,6 +478,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    margin-bottom: 30px;
 }
 
 .icon-lg {
@@ -651,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #212121!important;
 }
 
 .container {
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -692,12 +694,13 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #212121!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
 }
+
 
 .social {
     max-width: 400px;
@@ -776,11 +779,20 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    position: relative;
+}
+
+.tc-white_2{
+    color: #EBEBEB!important;
+    position: relative;
+}
+
+.tc-color {
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1039,4 +1051,28 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.title{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+
+}
+
+.citation{
+    font-size: 20px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.citation_name{
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.work{
+    font-size: 20px;
+
 }
