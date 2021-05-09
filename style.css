@@ -7,6 +7,45 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+.title{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+
+}
+
+@media (max-width: 400px){
+    .title{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 780px){
+    .title{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.citation{
+    font-size: 20px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.citation_name{
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.work{
+    font-size: 20px;
+
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1051,42 +1090,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-
-.title{
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-bottom: 50px;
-
-}
-
-@media (max-width: 400px){
-    .title{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-@media (max-width: 780px){
-    .title{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
-
-.citation{
-    font-size: 20px;
-    margin-left: 56px;
-    margin-right: 56px;
-}
-
-.citation_name{
-    margin-top: -10px;
-    font-size: 14px;
-    font-weight: 200;
-}
-
-.work{
-    font-size: 20px;
-
 }
