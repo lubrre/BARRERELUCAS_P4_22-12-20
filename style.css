@@ -1067,6 +1067,13 @@ h4 {
     }
 }
 
+@media (max-width: 780px){
+    .title{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 .citation{
     font-size: 20px;
     margin-left: 56px;
